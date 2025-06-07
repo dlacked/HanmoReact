@@ -1,0 +1,50 @@
+header{
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	z-index: 9;
+	transition: 1s;
+	color: white;
+	font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', Sans-serif;
+    top: 0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.deviceHeader{
+	width: 100%;
+	background: #333333;
+	height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerNotice{
+	justify-content: center;
+	width: 100%;
+	background: #800309;
+	height: 40px;
+	overflow: hidden;
+}
+
+.headerNotice ul {
+	position: relative;
+	height: 0px;
+	bottom: 25px;
+	text-align: center;
+}
+
+.headerNotice ul li{
+	margin: 30px 0px;
+}
+
+.headerNotice a {
+	text-decoration: underline;
+}
+
+li > span {
+	margin-right: 50px;
+}

@@ -1,0 +1,29 @@
+.notice{
+	width: 700px;
+	margin-top: 20px;
+	overflow: hidden;
+	height: 20px;
+}
+
+.notice > p {
+	margin: 0px 25px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.5)
+}
+
+.notice ul {
+	position: relative;
+	margin-left: 10px;
+	height: 130px;
+	font-size: 16px;
+	transition: 1s;
+	bottom: 0px;
+	text-align: left;
+}
+
+
+.notice li {
+	margin: 53px 0px;
+}
+

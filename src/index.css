@@ -1,0 +1,13 @@
+html, body{
+	font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', Sans-serif;
+	color: white;
+	height: 100vh;
+	user-select: none;
+	background-image: url('./img/background.svg');
+	background-position: right;
+	background-size: cover;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}

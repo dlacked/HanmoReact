@@ -1,0 +1,30 @@
+.mainNotice{
+	width: 700px;
+	margin-top: 20px;
+}
+
+.mainNotice {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.mainNotice span{
+	margin-left: 50px;
+}
+
+.mainNotice p {
+	line-height: 40px;
+}
+
+.topNotice {
+    font-weight: bold;
+}
+
+.mainNotice hr {
+	margin: 20px 0px;
+	width: 200px;
+	border: 0;
+	height: 1px;
+	background: #091b2c;
+}
