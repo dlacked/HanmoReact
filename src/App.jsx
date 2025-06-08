@@ -4,6 +4,8 @@ import Title from './components/Title.jsx';
 import Notice from './components/Notice.jsx';
 import Introduction from './components/Introduction.jsx';
 import Button from './components/Button.jsx';
+import Ad from './components/Ad.jsx';
+
 import './App.css';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Button>수강신청 연습하기</Button>
           <Button>새로고침</Button>
           <Button>개발자 소개</Button>
+        </section>
+        <section className='f-dirt-up'>
         </section>
       </main>
     </div>

@@ -11,8 +11,10 @@ function Introduction () {
     
     return (  
         <div className='mainNotice blueBox'>
-            {ableTime ? <p class='topNotice'>접속 제한 시간 <span>09:58 ~ 10:10</span></p> : (
-                <p class='topNotice'>한모 접속 제한 시간이에요.</p>
+            {ableTime ? (
+            <p className='topNotice'>접속 제한 시간 <span>09:58 ~ 10:10</span></p>
+        ) : (
+                <p className='topNotice'>지금은 접속 제한 시간이에요.</p>
             )}
             <hr />
             <p>

@@ -1,20 +1,20 @@
 import './Header.css';
 
-const user = navigator.userAgent;
-const now = new Date();
-
-let avaliableDevice = true;
-let sevenMinutesLeft = false;
-
-if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
-    avaliableDevice = false;
-}
-
-if (now.getHours() === 9 && now.getMinutes() >= 53 && now.getMinutes() < 58){
-    sevenMinutesLeft = true;
-}
-
 function Header() {
+    const now = new Date();
+
+    let avaliableDevice = true;
+    let sevenMinutesLeft = false;
+
+    if (navigator.userAgent.match(/iPhone|iPad|iPod|Android/i)){
+        avaliableDevice = false;
+    }
+
+    localStorage.setItem('avaliableDevice', avaliableDevice);
+
+    if (now.getHours() === 9 && now.getMinutes() >= 53 && now.getMinutes() < 58){
+        sevenMinutesLeft = true;
+    }
 
     let avaliableDeviceStyle = {
         backgroundColor: '#038003'

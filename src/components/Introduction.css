@@ -10,7 +10,7 @@
 }
 
 .mainNotice span{
-	margin-left: 50px;
+	margin-left: 30px;
 }
 
 .mainNotice p {
@@ -19,6 +19,7 @@
 
 .topNotice {
     font-weight: bold;
+	font-size: 20px;
 }
 
 .mainNotice hr {
